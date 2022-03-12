@@ -1,0 +1,16 @@
+@media screen and (max-width: 992px) {
+  .paragraph {
+    width: 100%;
+  }
+  .img_text p {
+    padding: 0px 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .img_text p {
+    padding: 0px 50px;
+  }
+  .content_wrapper {
+    padding: 0px 20px;
+  }
+}

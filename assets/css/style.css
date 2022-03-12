@@ -1,0 +1,130 @@
+/*******************************/
+/********* General CSS *********/
+/*******************************/
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: "Fjalla One", sans-serif;
+}
+
+p {
+  color: rgb(37, 35, 35);
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+}
+
+a {
+  color: #0a0b0f;
+  text-decoration: none;
+}
+.container {
+  padding: 0;
+}
+
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+/*------------- header css---------------- */
+.header h3 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+  color: #151515;
+  margin: 20px 0px;
+  transition: 0.3s;
+}
+
+.header h3:hover {
+  color: #ff7600;
+}
+.catalogue h1 {
+  color: #151515;
+}
+h5.py-1 {
+  color: #6093d9;
+}
+#bg_color {
+  background: #e9f1f8;
+}
+
+.paragraph {
+  padding-bottom: 0.25rem !important;
+  width: 50%;
+  margin-right: auto;
+}
+
+.banner {
+  text-align: center;
+}
+
+.buuton button {
+  outline: none;
+  border: none;
+  background-color: rgb(183, 212, 248);
+  padding: 16px 30px;
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.buuton button:hover {
+  box-shadow: 0 10px 10px -10px rgb(0 0 0 / 50%);
+}
+/* --------------------service css-------------------------------- */
+.serviecss {
+  text-align: center;
+  margin: 50px 0px;
+}
+.img_text {
+  text-align: center;
+  margin: 20px 0px;
+}
+#services {
+  margin: 50px 0px;
+}
+.img_text {
+  text-align: center;
+  margin: 20px 0px;
+  padding: 30px 10px 10px 10px;
+  background-color: transparent;
+  background-image: linear-gradient(225deg, #ffffff 0%, #e6ebee 100%);
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 10px 0px rgb(173 172 172 / 50%);
+}
+#review_sec {
+  background: url(../img/review.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.review {
+  text-align: center;
+  color: #fff;
+  padding: 80px 0px;
+  background-color: rgba(22, 22, 22, 0.5);
+}
+.review h1 {
+}
+.review h6 {
+  padding: 5em;
+}
